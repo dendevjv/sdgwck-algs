@@ -20,13 +20,13 @@ public abstract class UF {
     /** Checks whether p and q are in the same component. */
     public abstract boolean connected(int p, int q);
     
-    /** Component identifier for p (0 to n - 1). */
-    public int find(int p) {
-        return -1;
-    }
+//    /** Component identifier for p (0 to n - 1). */
+//    public int find(int p) {
+//        return -1;
+//    }
 
-    /** Returns number of components. */
-    public int count() {
-        return -1;
-    }
+//    /** Returns number of components. */
+//    public int count() {
+//        return -1;
+//    }
 }

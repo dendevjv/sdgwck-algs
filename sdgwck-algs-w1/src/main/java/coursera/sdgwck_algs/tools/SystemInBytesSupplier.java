@@ -11,6 +11,11 @@ public class SystemInBytesSupplier implements AutoCloseable {
         savedIn = System.in;
         System.setIn(new ByteArrayInputStream(buffer));
     }
+    
+    public SystemInBytesSupplier(InputStream inputStream) {
+        savedIn = System.in;
+        System.setIn(inputStream);
+    }
 
     @Override
     public void close() throws Exception {
