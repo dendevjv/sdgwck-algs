@@ -1,4 +1,4 @@
-package coursera.sdgwck_algs.w1;
+package coursera.sdgwck_algs.w1.uf;
 
 import static org.junit.Assert.*;
 
@@ -9,6 +9,7 @@ import org.junit.Test;
 import coursera.sdgwck_algs.tools.ResourceReader;
 import coursera.sdgwck_algs.tools.SystemInBytesSupplier;
 import coursera.sdgwck_algs.tools.SystemOutTester;
+import coursera.sdgwck_algs.w1.uf.QuickUnionUFMain;
 
 public class QuickUnionUFMainTest {
 

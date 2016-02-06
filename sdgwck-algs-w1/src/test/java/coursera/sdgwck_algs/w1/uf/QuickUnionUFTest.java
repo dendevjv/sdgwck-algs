@@ -1,9 +1,11 @@
-package coursera.sdgwck_algs.w1;
+package coursera.sdgwck_algs.w1.uf;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import coursera.sdgwck_algs.w1.uf.QuickUnionUF;
 
 public class QuickUnionUFTest {
 

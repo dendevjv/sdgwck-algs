@@ -1,4 +1,4 @@
-package coursera.sdgwck_algs.w1;
+package coursera.sdgwck_algs.w1.uf;
 
 public class QuickUnionUF extends UF  {
 

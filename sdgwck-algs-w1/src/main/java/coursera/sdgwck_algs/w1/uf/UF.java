@@ -1,4 +1,4 @@
-package coursera.sdgwck_algs.w1;
+package coursera.sdgwck_algs.w1.uf;
 
 /**
  * Base class for union-find data structure.
