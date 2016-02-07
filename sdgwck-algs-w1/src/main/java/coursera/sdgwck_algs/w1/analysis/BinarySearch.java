@@ -17,19 +17,18 @@ public class BinarySearch {
         System.out.println("Result: " + r + ", lo=" + (-r - 1));
     }
 
-    private static int find(int[] a, int v) {
+    private static int find(int[] a, int value) {
         int lo = 0;
         int hi = a.length - 1;
-        int m, midVal;
         while (lo <= hi) {
-            m = lo + (hi - lo) / 2;
-            midVal = a[m];
-            if (midVal == v) {
-                return m;
-            } else if (v < midVal) {
-                hi = m - 1;
+            int mid = lo + (hi - lo) / 2;
+            int midValue = a[mid];
+            if (value < midValue) {
+                hi = mid - 1;
+            } else if (midValue < value) {
+                lo = mid + 1;
             } else {
-                lo = m + 1;
+                return mid;
             }
         }
         return -(lo + 1);
